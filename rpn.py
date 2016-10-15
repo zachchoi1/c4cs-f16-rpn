@@ -2,12 +2,12 @@
 
 import operator
 
-
 operators = {
 	'+': operator.add,
 	'-': operator.sub,
 	'*': operator.mul,
 	'/': operator.truediv,
+	'^': operator.exponent
 }
 
 def calculate(myarg):
