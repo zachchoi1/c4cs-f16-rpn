@@ -9,7 +9,6 @@ operators = {
 	'/': operator.truediv,
 	'^': operator.pow
 }
-
 def calculate(myarg):
 	stack = list()
 	for token in myarg.split():
