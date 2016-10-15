@@ -19,5 +19,5 @@ class TestBasics(unittest.TestCase):
 		with self.assertRaises(TypeError):
 			rpn.calculate("1 2 3 +")
 	def test_exponent(self):
-		result = rpn.calculate("6 6 ^")
-		self.assertEqual(36, result)
+		result = rpn.calculate("2 3 ^")
+		self.assertEqual(8, result)
